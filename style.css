@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+
+.nov {
+  min-height: 40px;
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: cyan;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+ transition: transform 1s ease ;
+}
+.menu:hover {
+ color: white;
+}
+.name {
+  display: block;
+  margin-right: auto;
+}
+.menu li {
+  padding: 10px;
+}
+header {
+  padding-top: 40px;
+  height: 400px;
+  width: 100%;
+  background-image: url("https://placeimg.com/1000/400/arch");
+  background-size: cover;
+  text-align: center;
+
+}
+header img {
+  border-radius: 50%;
+  border: 2px solid #000;
+  transition: all .5s ;
+
+}
+header img:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.tag {
+  background-color: black;
+  color: orange;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+ transition: transform 1s ease ;
+}
+.tag:hover {
+  background-color: orange;
+  color: black ;
+  transform: skewY(30deg);
+}
+.sub-title {
+  background-color: #000;
+  color: yellow;
+}
+.content {
+  display:flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.card {
+  max-width: 500px;
+  padding: 50px;
+  margin: 10px;
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 60px;
+}
+.tag-list {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+}
+.tag-yellow {
+  background-color: #FF7F50;
+}
+.tag-blue {
+  background-color: #5F9EA0;
+}
+.brotf {
+  background-color: red;
+  height: 40px;
+  width: 80px;
+ padding: 30px;
+ display: flex;
+justify-content: center;
+align-items: center;
+ border-radius: 5px;
+ border: 3px solid black;
+ font-family: sans-serif;
+}
+.brotf:hover {
+  background-color: white;
+
+}
